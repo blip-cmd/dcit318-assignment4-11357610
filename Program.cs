@@ -16,7 +16,8 @@ namespace dcit318_assignment4_11357610
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new MainForm());
+            var appointmentForm = new AppointmentForm();
         }
     }
 }
