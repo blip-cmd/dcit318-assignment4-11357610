@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36414.22 d17.14
+VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicalAppointmentSystem", "MedicalAppointmentSystem.csproj", "{BACF00EE-4812-4ED0-B61C-59FA80DE027D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicalAppointmentSystem", "Medical\MedicalAppointmentSystem.csproj", "{BACF00EE-4812-4ED0-B61C-59FA80DE027D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmInventory", "PharmInventory\PharmInventory.csproj", "{BD7FB95D-9843-40FC-8661-5741555C0182}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,11 +17,15 @@ Global
 		{BACF00EE-4812-4ED0-B61C-59FA80DE027D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BACF00EE-4812-4ED0-B61C-59FA80DE027D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BACF00EE-4812-4ED0-B61C-59FA80DE027D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD7FB95D-9843-40FC-8661-5741555C0182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD7FB95D-9843-40FC-8661-5741555C0182}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD7FB95D-9843-40FC-8661-5741555C0182}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD7FB95D-9843-40FC-8661-5741555C0182}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E83D1422-5C6D-40B5-B391-D67B014F8097}
+		SolutionGuid = {A7D7C7C7-6D6D-6D6D-AD6D-3456789012CD}
 	EndGlobalSection
 EndGlobal

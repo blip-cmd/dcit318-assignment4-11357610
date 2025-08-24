@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BACF00EE-4812-4ED0-B61C-59FA80DE027D}</ProjectGuid>
+    <ProjectGuid>{BD7FB95D-9843-40FC-8661-5741555C0182}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>dcit318_assignment4_11357610</RootNamespace>
-    <AssemblyName>dcit318-assignment4-11357610</AssemblyName>
+    <RootNamespace>PharmInventory</RootNamespace>
+    <AssemblyName>PharmInventory</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,10 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>
-    </StartupObject>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -50,53 +46,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AppointmentForm.cs">
+    <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AppointmentForm.Designer.cs">
-      <DependentUpon>AppointmentForm.cs</DependentUpon>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="DoctorListForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DoctorListForm.Designer.cs">
-      <DependentUpon>DoctorListForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="MainForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MainForm.Designer.cs">
-      <DependentUpon>MainForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ManageAppointmentsForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ManageAppointmentsForm.Designer.cs">
-      <DependentUpon>ManageAppointmentsForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="MedicalDBDataSet.Designer.cs">
+    <Compile Include="PharmacyDBDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>MedicalDBDataSet.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="MedicalDBDataSet1.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>MedicalDBDataSet1.xsd</DependentUpon>
+      <DependentUpon>PharmacyDBDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="AppointmentForm.resx">
-      <DependentUpon>AppointmentForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DoctorListForm.resx">
-      <DependentUpon>DoctorListForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MainForm.resx">
-      <DependentUpon>MainForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ManageAppointmentsForm.resx">
-      <DependentUpon>ManageAppointmentsForm.cs</DependentUpon>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -107,27 +71,16 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="MedicalDBDataSet.xsc">
-      <DependentUpon>MedicalDBDataSet.xsd</DependentUpon>
+    <None Include="PharmacyDBDataSet.xsc">
+      <DependentUpon>PharmacyDBDataSet.xsd</DependentUpon>
     </None>
-    <None Include="MedicalDBDataSet.xsd">
+    <None Include="PharmacyDBDataSet.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>MedicalDBDataSet.Designer.cs</LastGenOutput>
+      <LastGenOutput>PharmacyDBDataSet.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="MedicalDBDataSet.xss">
-      <DependentUpon>MedicalDBDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="MedicalDBDataSet1.xsc">
-      <DependentUpon>MedicalDBDataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="MedicalDBDataSet1.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>MedicalDBDataSet1.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="MedicalDBDataSet1.xss">
-      <DependentUpon>MedicalDBDataSet1.xsd</DependentUpon>
+    <None Include="PharmacyDBDataSet.xss">
+      <DependentUpon>PharmacyDBDataSet.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
